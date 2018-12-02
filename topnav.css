@@ -1,0 +1,75 @@
+#parent
+{
+
+	text-align:center;
+	padding:23px;
+	font-size:25px;
+	background-color:orange;
+}
+
+.big
+{
+	font-size:10vw;
+}
+
+.center
+{
+	text-align:center;
+}
+
+#ShortDescrpit
+{
+	background-color:#00bfff;
+	padding:20px 50px 20px 50px;
+}
+
+#right-col
+{
+	padding:20px;
+}
+
+#Secondsection
+{
+	padding:20px 50px 20px 50px;
+	/*display:grid;*/
+}
+
+#Thirdsection
+{
+	background-color: #00ff80;
+	padding:20px 50px 20px 50px;
+	display:grid;
+}
+
+.mar
+{
+	margin:10px;
+}
+
+.item1 {
+  grid-column: 1 / 3;
+}
+
+.on9 {
+	float:left;
+	width:50%;
+}
+
+#ddd
+{
+	position: fixed;
+	position: -webkit-sticky;
+	bottom: 0;
+	width:10%;
+	border:3px solid blue;
+}
+
+@media screen and (min-width: 480px) {
+    .grider
+	{
+		display:grid;
+		grid-template-columns: auto auto;
+	}
+	
+	
+}
