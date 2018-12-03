@@ -3,14 +3,24 @@
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="topnav.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="rool.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:300,600">
 </head>
+
 <body>
-<div id="ddd"><a href="#parent">Click me to go to top</a></div>
+<div id="ddd"><a href="javascript:;" onclick="window.scroll({
+  top: 0,
+  behavior: 'smooth'
+})">
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg></a>
+</div>
 <div id ="parent">
   <a class="mar" href="#home">Home</a>
   <a class="mar" href="#news">About</a>
@@ -18,45 +28,53 @@
   <a class="mar" href="#about">Add to Slack</a>
 </div>
 <div class="grider" id="ShortDescrpit">
-<div class="center" id="left col">
-<main>
+<div class="grid center mar" id="left col">
 	<h1 class="big">TickyBot</h1>
-	<article class="center">Let your team manage their support tickets 100% inside Slack</article>
-	<a href="http://www.google.com.au">Add to Slack</a>
-</main>
+	<article class="font center">Let your team manage their support tickets 100% inside Slack</article>
+		<button href="http://www.google.com.au">Add to Slack</button>
+
 </div>
-<div class="center" id="right-col">
-	ASADADS
+<div class="grid center mar">
+<svg width="100%" height="100%">
+    <rect width="100%" height="100%" style="fill:rgb(128,128,128);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
 </div>
 </div>
-<div  class="grider" id="Secondsection">
+<div class="grider" id="Secondsection">
 <h1 class="item1 center">What Is TickyBot?</h1>
-<div><p class=" mar">TickyBot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p></div>
+<div><p id="11" class=" mar">TickyBot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p></div>
 <div><p class="mar">With TickyBot you can easily check if you've received new tickets, change their status, or write a reply, and the ticket will instantly update itself on our site.</p></div>
-<p class="item1 mar">Support requests shouldn't be handled through Slack's direct messages.Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could look into the issue.</p>
+<div class="item1 mar">
+<p>Support requests shouldn't be handled through Slack's direct messages.</p><p><em>Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could look into the issue.</em></p>
 </div>
-<div class="grider" id="Thirdsection">
-<h1 class="item1 center">How It Works</h1>
-<div><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p><p>You can add TickyBot to your Slack workplace by scrolling down or clicking here</p></div>
-<div><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p><p>Your users can open a ticket by typing /ticket and their message into the chat field</p></div>
-<div class="item1 center"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>Once you or another admin solved their problems you can type /ticket close #id to close the ticket</div>
+</div>
+<div class="grider1" id="Thirdsection">
+<h1 class="item2 center">How It Works</h1>
+<div id="firstthird" class="center mar"><svg width="100%" height="300">
+    <rect width="100%" height="100%" style="fill:rgb(128,128,128);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
+<p>You can add TickyBot to your Slack workplace by scrolling down or clicking here</p>
+</div>
+<div id="secondthird" class="center mar">
+<svg width="100%" height="300">
+    <rect width="100%" height="100%" style="fill:rgb(128,128,128);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
+<p>Your users can open a ticket by typing /ticket and their message into the chat field</p>
+</div>
+<div id="thirdthird" class="gri center mar">
+<svg width="100%" height="300">
+    <rect width="100%" height="100%" style="fill:rgb(128,128,128);stroke-width:3;stroke:rgb(0,0,0)" />
+</svg>
+<p>Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
+</div>
 </div>
 <div>
-<p>Start Using TickyBot Today</p>
-<p>TickyBot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between different apps.</p>
-<p>Add to Slack</p>
-<p>... so you don't need to go back and forth with another app.</p>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>
-<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>
+<div class="center grid pad">
+<h1 class="pad">Start Using TickyBot Today</h1>
+<p class="pad">TickyBot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between different apps.</p>
+<button class="pad" href="http://www.google.com.au">Add to Slack</button>
+<p class="pad">... so you don't need to go back and forth with another app.</p>
+</div>
 </div>
 </body>
 </html>
