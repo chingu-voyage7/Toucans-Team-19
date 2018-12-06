@@ -1,6 +1,6 @@
 body
 {
-	font-size:2em;
+	font-size:2vw;
 }
 
 #firstthird
@@ -101,7 +101,7 @@ body
 {
 	position: fixed;
 	bottom: 0;
-	left:100%;
+	right:0;
 	transition: left 0.3s;
     transition-timing-function: linear;
 }
