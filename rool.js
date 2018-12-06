@@ -1,16 +1,8 @@
 'use strict'
 
 $( document ).ready(function() {
-	console.log($(window).height());
+	console.log($("changewidth"));
 	$(window).scroll(function() {
-	if ($("#Thirdsection").offset().top > $("#ddd").offset().top)
-	{
-		$("#ddd").css("left","100%");
-	}
-	else
-	{
-		$("#ddd").css("left","90%");
-	}
 	
 	if ($(window).scrollTop() >= ($("#Thirdsection").offset().top))
 	{
@@ -20,8 +12,17 @@ $( document ).ready(function() {
 		
 	}
 	
+	//$("changewidth").css("width",$("changewidth").height() * 0.95);
 });
 });
+
+function myF()
+{
+	window.scroll({
+		top: 0,
+		behavior: 'smooth'
+	})
+}
 
 window.scroll({
   top: 100,
@@ -31,3 +32,4 @@ window.scroll({
 
 //https://stackoverflow.com/questions/379900/fade-in-each-element-one-after-another
 //https://stackoverflow.com/questions/4655273/jquery-window-scrolltop-but-no-window-scrollbottom
+//https://editor.method.ac/  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->

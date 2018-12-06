@@ -1,20 +1,6 @@
 body
 {
-	font-size:2vw;
-}
-
-#firstthird
-{
-	opacity: 0;
-}
-
-#secondthird
-{
-		opacity: 0;
-}
-#thirdthird
-{
-		opacity: 0;
+	font-size:20px;
 }
 
 .grid
@@ -22,12 +8,22 @@ body
 	display:grid;
 }
 
+.orange
+{
+	color: #fbcf5a;
+}
+
+.orange:hover
+{
+	color:#ffffff;
+}
+
 #parent
 {
-	font-size:1.1em;
+	font-size:4.5vw;
 	text-align:center;
-	padding:23px;
-	background-color:orange;
+	padding:2vw;
+	background-color:#40596b;
 }
 
 .font
@@ -37,7 +33,7 @@ body
 
 .pad
 {
-	padding:23px;
+	padding:2vw;
 }
 
 .big
@@ -52,7 +48,6 @@ body
 
 #ShortDescrpit
 {
-	height:100vh;
 	background-color:#00bfff;
 	padding:20px 50px 20px 50px;
 }
@@ -81,7 +76,17 @@ body
 
 .mar
 {
-	margin:10px;
+	margin:1vw;
+}
+
+.white{
+	background-color:#ffffff;
+	font-size:25px;
+}
+
+.black
+{
+	background-color:#40596b;
 }
 
 .item1 {
@@ -104,6 +109,18 @@ body
 	right:0;
 	transition: left 0.3s;
     transition-timing-function: linear;
+}
+
+.button
+{
+	width:50%;
+}
+
+@media screen and (max-width: 320px) {
+	.button
+	{
+		width:100%;
+	}
 }
 
 @media screen and (min-width: 758px) {
