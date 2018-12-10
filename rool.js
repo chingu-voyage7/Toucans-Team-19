@@ -1,20 +1,23 @@
 'use strict'
 
 $( document ).ready(function() {
-	console.log($("changewidth"));
 	$(window).scroll(function() {
-	
 	if ($(window).scrollTop() >= ($("#Thirdsection").offset().top))
 	{
+		console.log(document.getElementById("robotface").getBBox());
+
 		$("#firstthird").fadeTo(1000,1);
 		$("#secondthird").delay(800).fadeTo(1000,1);
 		$("#thirdthird").delay(1600).fadeTo(1000,1);
 		
 	}
+	//window.requestAnimationFrame(step);
+
 	
 	//$("changewidth").css("width",$("changewidth").height() * 0.95);
 });
 });
+
 
 function myF()
 {

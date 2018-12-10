@@ -3,6 +3,13 @@ body
 	font-size:20px;
 }
 
+#drawing
+{
+	border-radius: 50%;
+	background-color: #fbcf5a;
+	overflow:hidden;
+}
+
 .grid
 {
 	display:grid;
