@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>TickyBot Clone</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,15 +13,15 @@
 </head>
 
 <body>
-<div id="ddd"><a href="javascript:;" onclick="myF()">
+<div id="ddd"><a href="#parent">
 <button>TOP</button>
 </a>
 </div>
 <div id ="parent">
   <a class="orange mar" href="#home">Home</a>
-  <a class="orange mar" href="#news">About</a>
-  <a class="orange mar" href="#contact">Features</a>
-  <a class="orange mar" href="#about">Add to Slack</a>
+  <a class="orange mar" href="#Secondsection">About</a>
+  <a class="orange mar" href="#Thirdsection">Features</a>
+  <a class="orange mar" href="#fourthsection">Add to Slack</a>
 </div>
 <div class="grider" id="ShortDescrpit">
 <div class="grid center mar" id="left col">
@@ -29,9 +29,9 @@
 	<article class="font">Let your team manage their support tickets 100% inside Slack</article>
 	<a href="http://www.google.com.au"><button>Add to Slack</button></a>
 </div>
-<div>
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 640 480">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+<div id="drawing">
+<svg id="svgdd" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 540 420">
+ <!--Created with Method Draw - http://github.com/duopixel/Method-Draw/!-->
  <g>
   <title>background</title>
   <rect x="-1" y="-1" width="642" height="482" id="canvas_background" fill="#fbcf5a"/>
@@ -42,10 +42,10 @@
  <g>
   <title>Layer 1</title>
  </g>
- <g stroke="null">
+ <g transform="translate(-52,-30)" id = "fullrobot" stroke="null">
   <title>Layer 1</title>
   <ellipse id="svg_17" cy="56.0375" cx="29.7" fill-opacity="null" stroke-opacity="null" fill="transparent"/>
-  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <!--Created with Method Draw - http://github.com/duopixel/Method-Draw/!-->
   <ellipse stroke="#000" fill="#fff" stroke-width="1.5" cx="5693.03506" cy="3678.24793" id="svg_42" rx="36.5" ry="37"/>
   <ellipse stroke="#000" fill="#fff" stroke-width="1.5" stroke-opacity="null" fill-opacity="null" cx="5433.80123" cy="3670.33982" id="svg_41"/>
   <ellipse stroke="#000" fill="#fff" stroke-width="1.5" cx="5556.03505" cy="3678.24793" id="svg_40" rx="37" ry="37"/>
@@ -105,7 +105,6 @@
    <animateTransform  id="second" attributeName="transform" attributeType="XML" type="rotate" to="0 300 125" begin="first.end" dur="1s" fill="freeze"/>
    <animateTransform id="third" attributeName="transform" attributeType="XML" type="rotate" to="-10 300 125" begin="second.end" dur="1s" fill="freeze"/>
    <animateTransform id="fourth" attributeName="transform" attributeType="XML" type="rotate" to="0 300 125" dur="1s" begin="third.end" fill="freeze"/>
-	
    </g>
   </g>
  </g>
@@ -113,9 +112,9 @@
 </div>
 </div>
 <div class="grider" id="Secondsection">
-<h1 class="item1 center">What Is TickyBot?</h1>
-<div class=" mar"><p id="11">TickyBot is a Slack Bot that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p></div>
-<div class="mar"><p>With TickyBot you can easily check if you've received new tickets, change their status, or write a reply, and the ticket will instantly update itself on our site.</p></div>
+<div class="item1 center"><h1>What Is Tickybot?</h1><br></div>
+<div class=" mar"><p id="11">TickyBot is a Slack Bot that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.</p><br></div>
+<div class="mar"><p>With TickyBot you can easily check if you've received new tickets, change their status, or write a reply, and the ticket will instantly update itself on our site.</p><br></div>
 <div class="item1 mar">
 <p>Support requests shouldn't be handled through Slack's direct messages.</p><p><em>Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could look into the issue.</em></p>
 </div>
@@ -124,25 +123,89 @@
 <h1 class="item2 center">How It Works</h1>
 <div id="firstthird" class="center mar">
 <div class="pad black">
-<img class="changewidth" width="50%" src="addticket.svg"></img>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 508 508">
+  <circle style="fill:#54C1EC;" cx="254" cy="254" r="254"/>
+  <path style="fill:#324A5E;" d="M185.2,191.6v133.2c0,6.4,5.2,11.2,11.2,11.2h111.2l81.6,56.8L374.4,336h26.8 c6.4,0,11.2-5.2,11.2-11.2V191.6c0-6.4-5.2-11.2-11.2-11.2H196.4C190,180.4,185.2,185.2,185.2,191.6z"/>
+  <path style="fill:#FF7055;" d="M366.4,128.8v158.4c0,7.6-6,13.6-13.6,13.6H220.4L123.2,368l17.6-67.6h-32c-7.6,0-13.6-6-13.6-13.6 v-158c0-7.6,6-13.6,13.6-13.6h244C360,115.2,366.4,121.2,366.4,128.8z"/>
+  <g>
+  <circle style="fill:#E6E9EE;" cx="153.6" cy="208" r="19.6"/>
+    <circle style="fill:#E6E9EE;" cx="230.8" cy="208" r="19.6"/>
+    <circle style="fill:#E6E9EE;" cx="307.6" cy="208" r="19.6"/>
+  </g>
+</svg>
+<!-- <img class="changewidth" width="50%" src="addticket.svg"></img> -->
 </div>
 <p class="white">You can add TickyBot to your Slack workplace by scrolling down or clicking here</p>
+<br>
 </div>
 <div id="secondthird" class="center mar">
 <div class="pad black">
-<img class="changewidth" width="50%" src="talkbox.svg"></img>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 531">
+  <path style="fill:#F2F2F2;" d="M385.067,0H57.6C45.867,0,36.267,9.6,36.267,21.333v469.333C36.267,502.4,45.867,512,57.6,512 h395.733c11.733,0,21.333-9.6,21.333-21.333v-400L385.067,0z"/>
+  <path style="fill:#CDD6E0;" d="M385.067,62.933c0,14.933,11.733,27.733,27.733,27.733h62.933L385.067,0V62.933z"/>
+  <rect x="201.6" y="107.733" style="fill:#ACB3BA;" width="274.133" height="50.133"/>
+  <path style="fill:#54C1EC;" d="M57.6,0C45.867,0,36.267,9.6,36.267,21.333v469.333C36.267,502.4,45.867,512,57.6,512h142.933V0H57.6 z"/>
+  <circle style="fill:#FF7055;" cx="119.467" cy="132.267" r="56.533"/>
+  <g>
+    <rect x="55.467" y="433.067" style="fill:#324A5E;" width="125.867" height="21.333"/>
+    <rect x="55.467" y="366.933" style="fill:#324A5E;" width="125.867" height="21.333"/>
+  </g>
+  <g>
+    <rect x="231.467" y="235.733" style="fill:#54C1EC;" width="213.333" height="21.333"/>
+    <rect x="231.467" y="301.867" style="fill:#54C1EC;" width="213.333" height="21.333"/>
+    <rect x="231.467" y="366.933" style="fill:#54C1EC;" width="213.333" height="21.333"/>
+    <rect x="338.133" y="433.067" style="fill:#54C1EC;" width="106.667" height="21.333"/>
+  </g>
+  <rect x="272" y="121.6" style="fill:#CDD6E0;" width="132.267" height="21.333"/>
+  <g>
+    <path style="fill:#F2F2F2;" d="M96,117.333c6.4,25.6,23.467,26.667,23.467,26.667s16-2.133,23.467-26.667c0,0,3.2-3.2,1.067-13.867 c0,0-2.133-22.4-23.467-22.4s-25.6,22.4-25.6,22.4C92.8,114.133,96,117.333,96,117.333z"/>
+    <path style="fill:#F2F2F2;" d="M161.067,152.533c-7.467,16-23.467,26.667-42.667,26.667s-35.2-10.667-42.667-26.667 c1.067-1.067,3.2-1.067,4.267-2.133l18.133-6.4l2.133-1.067c8.533,8.533,17.067,9.6,17.067,9.6h1.067h1.067 c0,0,8.533-1.067,17.067-9.6l2.133,1.067l18.133,6.4C158.933,151.467,160,151.467,161.067,152.533z"/>
+  </g>
+</svg>
+
+<!-- <img class="changewidth" width="50%" src="talkbox.svg"></img> -->
 </div>
 <p class="white">Your users can open a ticket by typing /ticket and their message into the chat field</p>
+<br>
 </div>
 <div id="thirdthird" class="gri center mar">
 <div class="pad black">
-<img class="changewidth" width="50%" src="ticketclose.svg"></img>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 528">
+  <path style="fill:#F3F3F3;" d="M512,114.133V480c0,18.133-13.867,32-32,32H32c-18.133,0-32-13.867-32-32V114.133H512z"/>
+  <path style="fill:#54C1EC;" d="M512,114.133V32c0-18.133-13.867-32-32-32H32C13.867,0,0,13.867,0,32v82.133H512z"/>
+  <g>
+    <circle style="fill:#FFFFFF;" cx="64" cy="56.533" r="23.467"/>
+    <circle style="fill:#FFFFFF;" cx="133.333" cy="56.533" r="23.467"/>
+    <circle style="fill:#FFFFFF;" cx="201.6" cy="56.533" r="23.467"/>
+  </g>
+  <path style="fill:#CED6E0;" d="M117.333,165.333h-60.8c-3.2,0-5.333,2.133-5.333,5.333v61.867c0,3.2,2.133,5.333,5.333,5.333h60.8  c3.2,0,5.333-2.133,5.333-5.333v-61.867C122.667,167.467,120.533,165.333,117.333,165.333z M113.067,226.133h-51.2v-51.2h51.2  V226.133z"/>
+  <path style="fill:#FF7055;" d="M86.4,236.8c-2.133,0-4.267-1.067-5.333-2.133l-27.733-27.733c-3.2-3.2-3.2-8.533,0-11.733 c3.2-3.2,8.533-3.2,11.733,0l19.2,19.2c6.4-11.733,21.333-32,48-51.2c3.2-2.133,8.533-2.133,10.667,2.133 c2.133,3.2,2.133,8.533-2.133,10.667c-37.333,26.667-48,54.4-48,54.4c-1.067,2.133-3.2,4.267-5.333,5.333 C87.467,236.8,87.467,236.8,86.4,236.8z"/>
+  <g>
+    <rect x="158.933" y="170.667" style="fill:#CED6E0;" width="309.333" height="19.2"/>
+    <rect x="158.933" y="212.267" style="fill:#CED6E0;" width="165.333" height="19.2"/>
+    <path style="fill:#CED6E0;" d="M117.333,268.8h-60.8c-3.2,0-5.333,2.133-5.333,5.333V336c0,3.2,2.133,5.333,5.333,5.333h60.8 c3.2,0,5.333-2.133,5.333-5.333v-61.867C122.667,270.933,120.533,268.8,117.333,268.8z M113.067,330.667h-51.2v-51.2h51.2V330.667z"/>
+  </g>
+  <path style="fill:#FF7055;" d="M86.4,340.267c-2.133,0-4.267-1.067-5.333-2.133L53.333,310.4c-3.2-3.2-3.2-8.533,0-11.733 c3.2-3.2,8.533-3.2,11.733,0l19.2,19.2c6.4-11.733,21.333-32,48-51.2c3.2-2.133,8.533-2.133,10.667,2.133 c2.133,3.2,2.133,8.533-2.133,10.667c-37.333,26.667-48,54.4-48,54.4c-1.067,2.133-3.2,4.267-5.333,5.333 C87.467,340.267,87.467,340.267,86.4,340.267z"/>
+  <g>
+    <rect x="158.933" y="274.133" style="fill:#CED6E0;" width="309.333" height="19.2"/>
+    <rect x="158.933" y="315.733" style="fill:#CED6E0;" width="165.333" height="19.2"/>
+    <path style="fill:#CED6E0;" d="M117.333,372.267h-60.8c-3.2,0-5.333,2.133-5.333,5.333v61.867c0,3.2,2.133,5.333,5.333,5.333h60.8 c3.2,0,5.333-2.133,5.333-5.333V377.6C122.667,374.4,120.533,372.267,117.333,372.267z M113.067,434.133h-51.2v-51.2h51.2V434.133z"/>
+    <rect x="158.933" y="377.6" style="fill:#CED6E0;" width="309.333" height="19.2"/>
+    <rect x="158.933" y="419.2" style="fill:#CED6E0;" width="165.333" height="19.2"/>
+  </g>
+</svg>
+
+<!-- <img class="changewidth" width="50%" src="ticketclose.svg"></img> -->
 </div>
 <p class="white">Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
+<br>
 </div>
 </div>
 <div>
-<div class="center grid pad">
+<div id="fourthsection" class="center grid pad">
 <h1 class="pad">Start Using TickyBot Today</h1>
 <p class="pad">TickyBot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between different apps.</p>
 <a href="http://www.google.com.au">Add to Slack</a>
