@@ -12,7 +12,6 @@ $( document ).ready(function() {
 	//window.requestAnimationFrame(step)	
 	//$("changewidth").css("width",$("changewidth").height() * 0.95);
 });
-});
 
 
 function myF()

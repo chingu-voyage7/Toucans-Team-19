@@ -5,6 +5,68 @@ html
 
 body
 {
+	font-family:Signika;
+}
+.cen
+{
+	padding:3px;
+	margin:auto;
+}
+
+.disd
+{
+	margin:0 auto;
+}
+
+.widtht
+{
+	width:70px;
+}
+
+.padfort
+{
+	margin:auto;
+	height:70px;
+	font-size:30px;
+}
+
+.bigbutton
+{
+	transition:all 0.2s;
+	border: none;
+	border-radius:5%;
+	background-color:#fff;
+	margin:auto;
+	padding:10px;
+
+}
+
+a.buttona
+{
+    appearance: button;
+	padding:5px;
+    text-decoration: none;
+    color: white;
+	background-color:black;
+}
+
+.bigbutton:hover
+{
+}
+
+.bigbutton:hover .hav
+{
+	width:50px;
+	transform:rotate(45deg);
+}
+
+.hav
+{  
+	transition:0.1s;
+}
+
+body
+{
 	font-size:20px;
 }
 
@@ -32,7 +94,7 @@ body
 
 #parent
 {
-	font-size:20px;
+	font-size:22px;
 	text-align:center;
 	padding:2vw;
 	background-color:#40596b;
@@ -78,7 +140,7 @@ body
 
 #Thirdsection
 {
-	background-color: #00ff80;
+	background-color: #90ddaa;
 	padding:20px 50px 20px 50px;
 }
 
@@ -129,10 +191,15 @@ body
 	width:50%;
 }
 
-@media screen and (max-width: 320px) {
-	.button
+@media screen and (max-width: 400px) {
+	.bigbutton
 	{
 		width:100%;
+	}
+	
+	.padfort
+	{
+		font-size:22px;
 	}
 }
 
